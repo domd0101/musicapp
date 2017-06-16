@@ -1,0 +1,32 @@
+body{
+  background: black;
+}
+.app{
+  padding: 40px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.app-title{
+  font-size: 36px;
+  color: white;
+}
+.search-bar{
+  height: 20px;
+  font-size: 16px;
+  border-radius: 3px;
+}
+.profile{
+  border: 2px solid white;
+  height: 600px;
+  width: 100%;
+  margin-top: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+
+}
