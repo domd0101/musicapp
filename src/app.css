@@ -1,5 +1,9 @@
 body{
   background: black;
+  background-image: url('./andy-kerr-153378.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .app{
   padding: 40px;
@@ -19,14 +23,16 @@ body{
   border-radius: 3px;
 }
 .profile{
-  border: 2px solid white;
+  border-radius: 10px;
   height: 600px;
   width: 100%;
   margin-top: 20px;
+  background: rgba(255, 255, 255, 0.3);
   color: white;
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: space-around;
   padding: 20px;
-
+  font-size: 36px;
 }
